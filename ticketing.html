@@ -100,7 +100,65 @@
         </div> -->
         <div style="padding:40px;">
         </div>
+
+
         <div class="company-description">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-0 col-lg-1"></div>
+                    <div class="col-sm-12 col-lg-10">
+                        <h1>宝岛一村 The Village</h1>
+                        <p>宝岛一村，赖声川经典之作，温暖与变迁共存的时代，几代人的颠沛流离与爱恨情仇。这是一个不说很可能即将消逝的故事，于是我们要将这故事向你娓娓道来。剑桥中文剧社年度大戏--《宝岛一村》即将上演，我们邀请你与我们一起成为这个眷村的一员。</p>
+                        <p>The Village is the most popular Chinese play since 2009, and has been performed over 200 times in all parts of the world. It features three generations of ordinary military families after the retreat of the Republic of China to Taiwan, with an impressive timespan of 60 years from 1949-2006. The Cambridge University Chinese Drama Society is looking forward to presenting you with this magnificent play.</p>
+                        <div style="text-align:center;">
+                            <a class="btn-lines dark light btn btn-default btn-green" href="upcoming.html">了解详情 Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-0 col-lg-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-0 col-lg-1"></div>
+                    <div class="col-sm-12 col-lg-10">
+                        <p>在购票之前，请阅读并确认同意下方的<a href="#TnC">购票须知</a>。</p>
+                        <p>Please read and accept <a href="#TnC">T&C</a> below before purchasing the tickets</p>
+                        <p>我同意遵守购票须知 I have read and agreed with the T&C. <input type="checkbox" id="TnCBox" onclick="show()"></p>
+                        <div style="text-align:center;">
+                            <p id="PickPrompt" style="display: none;">请选择场次 Please select the date and time</p>
+                            <select id="Picker" style="display: none;">
+                                <option value="https://events.cuccs.co.uk/e/7/the-village">18 Feb 夜场 Night 1900-2230</option>
+                                <option value="https://events.cuccs.co.uk/e/6/the-village">19 Feb 午场 Afternoon 1400-1730</option>
+                                <option value="https://events.cuccs.co.uk/e/8/the-village">19 Feb 夜场 Night 1900-2230</option>
+                            </select>
+                        </div>
+                        <div style="text-align:center; padding: 10px;">
+                            <a class="btn-lines dark light btn btn-default btn-green" onclick="go()" id="PickBtn" style="display: none;">现在购票 Purchase tickets</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-0 col-lg-1"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function show() {
+                var box = document.getElementById("TnCBox");
+                var P1 = document.getElementById("PickPrompt");
+                var P2 = document.getElementById("Picker");
+                var P3 = document.getElementById("PickBtn");
+                if (box.checked) {
+                    P1.style.display = "block";
+                    P2.style.display = "inline";
+                    P3.style.display = "inline";
+                } else {
+                    P1.style.display = "none";
+                    P2.style.display = "none";
+                    P3.style.display = "none";
+                }
+            }
+            function go() {
+                window.location.href = document.getElementById("Picker").value;
+            }
+        </script>
+        <div class="company-description" id="TnC">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-0 col-lg-1"></div>
