@@ -79,11 +79,13 @@ a:hover {
 }
 .navbar-header .navbar-brand {
   padding: 15px 0;
+  color: #F6511D;
 }
 .navbar-header .navbar-brand a {
   height: auto;
   display: inline-block;
   margin-top: 8px;
+  
 }
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle {
@@ -123,7 +125,7 @@ a:hover {
   text-transform: uppercase;
 }
 #top-bar .main-menu li a:hover {
-  color: #02bdd5;
+  color: #FFB400;
 }
 .navbar-custom .nav li > a {
   position: relative;
@@ -181,7 +183,7 @@ a:hover {
   margin-top: 25px;
 }
 #hero-area .btn {
-  background: #414141;
+  background: #0D2C54;
   border: none;
   color: #fff;
   padding: 20px 35px;
@@ -219,8 +221,9 @@ a:hover {
 }
 #call-to-action .block .btn-contact {
   background: #fff;
-  border: none;
-  color: #02bdd5;
+  /*border: none;*/
+  color: #0D2C54;
+  border-color: #0D2C54;
   padding: 16px 35px;
   margin-top: 20px;
   font-size: 12px;
@@ -305,6 +308,16 @@ a:hover {
   width: 100%;
   height: auto;
 }
+
+.works .btn {
+  background: #0D2C54;
+  color: #fff;
+  border-radius: 0px;
+  padding: 20px 35px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-size: 13px;
+}
 figure {
   background: #fff;
   margin-bottom: 45px;
@@ -378,7 +391,7 @@ figure figcaption h4 {
   margin: 0;
 }
 figure figcaption h4 a {
-  color: #02bdd5;
+  color: #F6511D;
 }
 figure figcaption p {
   font-size: 14px;
