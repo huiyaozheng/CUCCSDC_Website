@@ -563,6 +563,25 @@ ul.social-icons li {
 #copyright a:hover {
   text-decoration: none;
 }
+.message-page-header{
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 105px 0 0 0;
+  position: relative;
+  background: #02bdd5;
+  color: #fff;
+}
+.message-page-header h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+.message-page-header .block {
+  position: relative;
+  z-index: 99;
+  text-align: center;
+}
 .global-page-header {
   background-attachment: fixed;
   background-size: cover;
