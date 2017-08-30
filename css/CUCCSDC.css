@@ -3,7 +3,7 @@ body {
     font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
 }
 a.btn{
-    background: #40ad99;
+    background: #0d2c54;
     color:#ffffff;
 }
 
@@ -16,11 +16,11 @@ a.btn{
     color: #000000;
 }
 #cuccsdc-navbar a.nav-item:hover{
-    color: #ddba2e;
+    color: #ffb400;
     background-color: transparent;
 }
 #cuccsdc-navbar a.nav-item.active{
-    color: #40ad99;
+    color: #02bdd5;
     background-color: transparent;
 }
 
