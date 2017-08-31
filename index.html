@@ -1,235 +1,130 @@
 <!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <!-- Basic Page Needs
-        ================================================== -->
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="icon" type="image/png" href="images/favicon.png">
-        <title>CUCCS Drama Club 剑桥中文戏剧社</title>
-        <meta name="description" content="The official website of CUCCS Drama Club">
-        <meta name="keywords" content="CUCCSDC, CUCCS, Chinese Drama Club, 剑桥, 剧社, 中文戏剧">
-        <meta name="author" content="CUCCS Drama Club">
-        <!-- Mobile Specific Metas
-        ================================================== -->
-        <meta name="format-detection" content="telephone=no">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- Template CSS Files
-        ================================================== -->
-        <!-- Twitter Bootstrs CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Ionicons Fonts Css -->
-        <link rel="stylesheet" href="css/ionicons.min.css">
-        <!-- animate css -->
-        <link rel="stylesheet" href="css/animate.css">
-        <!-- Hero area slider css-->
-        <link rel="stylesheet" href="css/slider.css">
-        <!-- owl craousel css -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/owl.theme.css">
-        <link rel="stylesheet" href="css/jquery.fancybox.css">
-        <!-- template main css file -->
-        <link rel="stylesheet" href="css/main.css">
-        <!-- responsive css -->
-        <link rel="stylesheet" href="css/responsive.css">
-        
-        <!-- Template Javascript Files
-        ================================================== -->
-        <!-- modernizr js -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <!-- jquery -->
-        <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-        <!-- owl carouserl js -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!-- bootstrap js -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- wow js -->
-        <script src="js/wow.min.js"></script>
-        <!-- slider js -->
-        <script src="js/slider.js"></script>
-        <script src="js/jquery.fancybox.js"></script>
-        <!-- template main js -->
-        <script src="js/main.js"></script>
-    </head>
-    <body>
-        <!--
-        ==================================================
-        Top nav bar
-        ================================================== -->
-        <header id="top-bar" class="navbar-fixed-top animated-header">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <!-- /responsive nav button -->
-                    
-                    <!-- logo -->
-                    <a class="navbar-brand" href="index.html" >
-                        剑桥中文戏剧社
-                    </a>
-                    <!-- /logo -->
-                </div>
-                <!-- main menu -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <div class="main-menu">
-                        <ul class="nav navbar-nav navbar-right" style="text-align:center;">
-                            <li><a href="index.html" style="color:#02bdd5;">首页<br>Home</a></li>
-                            <li><a href="upcoming.html">最近作品<br>Latest</a></li>
-                            <li><a href="archives.html">作品回顾<br>Past Productions</a></li>
-                            <li><a href="ticketing.html">票务相关<br>Ticketing</a></li>
-                            <li><a href="about.html">剧社介绍<br>About us</a></li>
-                            <li><a href="joinus.html">加入我们！<br>Join us!</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <!-- /main nav -->
-            </div>
-        </header>
-        <!--
-        <section class="message-page-header" style="background: #F6511D;">
-            <div class="container">
-                       <div class="block">
-                            <h2><a href="" style="color:#fff;">2017 Michaelmas剧报名链接</a></h2>
-                       </div>
-            </div>
-        </section>
-        -->
-        <!--
-        ==================================================
-        Main display
-        ================================================== -->
-        <section id="hero-area" style="background: url('images/2017_2/18.jpg') no-repeat 50%; background-size: cover; padding-top: 150px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="block wow fadeInUp" data-wow-delay=".3s">
-                            <!-- Slider -->
-                            <img src="images/logo_2.png" class="img-responsive" alt="logo" style="margin:auto;width=100px;height=100px;">
-                            <section class="cd-intro">
-                                <h1>
-                                    《宝岛一村》圆满落幕
-                                </h1>
-                            </section> <!-- cd-intro -->
-                            <!-- /.slider -->
-                            <a class="btn-lines dark light wow fadeInUp animated btn btn-default btn-green"  data-wow-delay=".8s" href="upcoming.html">回顾详情<br>Learn more</a>
-                            <section style="text-align: center; padding-top: 20pt;">
-                                <iframe width="560" height="315" src="https://youtube.com/embed/IH_TCja-X0U" frameborder="0" allowfullscreen></iframe>
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </section><!--/#main-slider-->
-            <!--
-            ==================================================
-            Past Productions
-            ================================================== -->
-            <section id="works" class="works">
-                <div class="container">
-                    <div class="section-heading">
-                        <h1 class="title wow fadeInDown" data-wow-delay=".3s">作品回顾</h1>
-                        <p class="wow fadeInDown" data-wow-delay=".5s">
-                            回顾剧社近年的作品<br>Review our plays in recent years
-                        </p>
-                    </div>
-                    <div class="row">
+<html lang="zh-Hans">
 
-                        <div class="col-sm-6 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="img-wrapper">
-                                    <img src="images/2016_11/1.jpg" class="img-responsive" alt="知更鸟谋杀案" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/2016_11/1.jpg">看大图</a>
-                                            <a target="_blank" href="2016_11.html">了解更多</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="2016_11.html">
-                                    知更鸟谋杀案 The Robin Murders
-                                </a>
-                                </h4>
-                                <p>
-                                    Nov 2016
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CUCCS Drama Club 剑桥中文戏剧社</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta name="description" content="The official website of CUCCS Drama Club">
+    <meta name="keywords" content="CUCCSDC, CUCCS, Chinese Drama Club, 剑桥, 剧社, 中文戏剧">
+    <meta name="author" content="CUCCS Drama Club">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <!-- CUCCSDC custom CSS -->
+    <link rel="stylesheet" href="css/CUCCSDC.css">
+</head>
 
-                        <div class="col-sm-6 col-xs-12">
-                            <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                                <div class="img-wrapper">
-                                    <img src="images/2016_1/1.jpg" class="img-responsive" alt="我们的荆轲" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/2016_1/1.jpg">看大图</a>
-                                            <a target="_blank" href="2016_1.html">了解更多</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="2016_1.html">
-                                    我们的荆轲 Our Assassin
-                                </a>
-                                </h4>
-                                <p>
-                                    Jan 2016
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                            
-                    </div>
-                    <div style="text-align:center">
-                        <a class="btn" href="archives.html">查看所有<br>SEE ALL</a>
-                    </div>
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" style="color:#ed1c24;">
+            <img src="images/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            剑桥中文戏剧社
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarContent">
+            <div class="navbar-nav" id="cuccsdc-navbar">
+                <a class="nav-item nav-link active" href="index.html">首页<br>Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="upcoming.html">即将上演<br>Upcoming</a>
+                <a class="nav-item nav-link" href="archives.html">作品回顾<br>Past Productions</a>
+                <a class="nav-item nav-link" href="ticketing.html">票务相关<br>Ticketing</a>
+                <a class="nav-item nav-link" href="about.html">剧社介绍<br>About us</a>
+                <a class="nav-item nav-link" href="joinus.html">加入我们！<br>Join us!</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Horizontal Badge, used for ticketing / recruitment -->
+    <!--
+    <section class="message-page-header" style="background: #F6511D;">
+        <div class="container">
+            <div class="block" style="text-align:center; padding-top:5px; padding-bottom:3px">
+                <h3><a href="" style="color:#fff;">2018 Michaelmas剧购票链接</a></h2>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- Main Display Area -->
+    <section class="jumbotron text-center" id="mainJumbotron">
+        <div class="container">
+            <img src="images/logo_2.png" class="img-fluid" alt="logo" style="margin:auto;">
+            <h1 class="jumbotron-heading">《宝岛一村》圆满落幕</h1>
+            <p>
+                <a href="2017_2.html" class="btn">回顾详情<br>Learn more</a>
+            </p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://youtube.com/embed/IH_TCja-X0U" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Display of past productions -->
+    <div class="container">
+        <div class="section-heading" style="text-align:center;">
+            <h1 class="title">作品回顾</h1>
+            <p>
+                Review our plays in recent years
+            </p>
+        </div>
+        <div class="card-deck">
+            <div class="card mt-2 mb-2">
+                <img class="card-image" src="images/2016_11/1.jpg" alt="知更鸟谋杀案">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="2016_11.html">知更鸟谋杀案 The Robin Murders</a></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Nov 2016</h6>
                 </div>
-            </section> <!-- #works -->
-                            
-            <!--
-            ==================================================
-            contacts
-            ================================================== -->
-            <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">联系我们<br>Contact Us</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">无论你是想加入我们，还是想提出任何意见或者建议，请毫不犹豫地通过下方的链接与我们对话！<br>有你的参与，我们的戏剧会更精彩！<br>Please do not hesitate to tell us your thoughts. Our plays will be more fantastic with your involvement!</p>
-                                <a href="about.html#contact" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">联系方式<br>Contact Us</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <br><br>
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCUCCSCDC%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+            <div class="card mt-2 mb-2">
+                <img class="card-image" src="images/2016_1/1.jpg" alt="我们的荆轲">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="2016_1.html">我们的荆轲 Our Assassin</a></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Jan 2016</h6>
                 </div>
-            </section>
-            <!--
-            ==================================================
-            Footer Section Start
-            ================================================== -->
-            <footer id="footer">
-                <div class="container">
-                    <div class="col-md-6" style="text-align:center;">
-                        <p class="copyright">2016-2017 CUCCS Drama Club</p>
-                    </div>
-                    <div class="col-md-6" style="text-align:center;">
-                        <p class="copyright">Template by <a href="http://www.Themefisher.com">Themefisher</a></p>
-                    </div>
-                    
-                </div>
-            </footer> <!-- /#footer -->
-                
-        </body>
-    </html>
+            </div>
+        </div>
+        <div class="mt-3 mb-3" style="text-align:center;"><a class="btn p-3" style="color:white" href="#">查看所有<br>SEE ALL</a></div>
+    </div>
+
+    <!-- Display of contact information -->
+    <section id="contact">
+        <div class="card text-center">
+            <div class="card-body" style="background:#1e5f78;">
+                <h4 class="card-title">联系我们<br>Contact Us</h4>
+                <p class="card-text">无论你是想加入我们，还是想提出任何意见或者建议，请毫不犹豫地通过下方的链接与我们对话！<br>有你的参与，我们的戏剧会更精彩！<br>Please do not hesitate to tell us your
+                    thoughts. Our plays will be more fantastic with your involvement!</p>
+                <a href="about.html#contact" class="btn">联系方式<br>Contact Us</a><br/>
+                <iframe class="mt-3" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCUCCSCDC%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+        </div>
+        <div class="text-center">
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-3">
+        <div class="container text-center">
+            <span class="text-muted">Copyright 2016-2017 CUCCS Drama Club</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

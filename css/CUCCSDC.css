@@ -1,0 +1,71 @@
+/* Set body font*/
+body {
+    font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+}
+a.btn{
+    background: #0d2c54;
+    color:#ffffff;
+}
+
+/* Nav bar item styles */
+#cuccsdc-navbar a.nav-item{
+    text-align: center;
+    font-weight: bold;
+}
+#cuccsdc-navbar a.nav-item{
+    color: #000000;
+}
+#cuccsdc-navbar a.nav-item:hover{
+    color: #ffb400;
+    background-color: transparent;
+}
+#cuccsdc-navbar a.nav-item.active{
+    color: #02bdd5;
+    background-color: transparent;
+}
+
+/* Main display background, transparent effect and height */
+#mainJumbotron{
+    background: url('../images/2017_2/18.jpg') no-repeat 50%;
+    background-color: hsla(0,0%,100%,0.70); 
+    background-blend-mode: overlay; 
+    background-size: cover; 
+}
+
+/* Display of past productions */
+.card-image {
+    object-fit: cover;
+    height: 300px;
+}
+.card h5 a{
+    color:#ed1c24;
+}
+
+/* Contact information */
+#contact h4{
+    color: #ffffff;
+}
+
+#contact p{
+    color: #ffffff;
+}
+
+/* Footer style */
+.footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+
+
+/* Archived productions style */
+section .banner{
+    color: #ffffff;
+}
+
+.banner h2{
+    font-weight: bold;
+}
