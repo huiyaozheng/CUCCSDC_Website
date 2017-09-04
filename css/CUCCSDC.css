@@ -26,8 +26,8 @@ a.btn{
 
 /* Main display background, transparent effect and height */
 #mainJumbotron{
-    background: url('../images/2017_2/18.jpg') no-repeat 50%;
-    background-color: hsla(0,0%,100%,0.70); 
+    background: url('../images/2017_11/1.jpg') no-repeat 50%;
+    background-color: hsla(0,0%,100%,0.50); 
     background-blend-mode: overlay; 
     background-size: cover; 
 }
