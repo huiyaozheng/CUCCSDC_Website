@@ -61,23 +61,33 @@
                         <p class="mt-2">
                             'Love Letters' was premiered in New York in 1989. After revised by a writer from Taiwan, its first show in Mainland China was in 2005, where thousands of audiences were attracted to the theatre. The drama has only two leading roles, and the transcript is based on their letters in more than forty years. Cambridge University Chinese Drama Society has the pleasure to present Love Letters in November, and sincerely invites you to enjoy this drama with us.
                         </p>
+
+                        <!--
                         <p>
                             Venue: Main Lecture Theatre, Old Divinity School, St John's College
                             <br> Time: 1930-2200 04th Nov / 1400-1630 & 1930-2200 05th Nov
                             <br> Price: £8 for CCS members / £10 for Non-CCS members / £7 per CCS member for group of 3, 4 or 5 members
                         </p>
+                        -->
+
+
                         <div class="text-center">
                             <a class="btn" href="upcoming.html">了解详情 Learn More</a>
                         </div>
                     </div>
                     <div class="col-xs-0 col-lg-1"></div>
                 </div>
+
+
+
                 <div class="row mt-3">
                     <div class="col-xs-0 col-lg-1"></div>
                     <div class="col-sm-12 col-lg-10 text-center">
                         <p>在购票之前，请阅读并确认同意下方的<a href="#TnC">购票须知</a>。</p>
                         <p>Please read and accept <a href="#TnC">T&C</a> below before purchasing the tickets</p>
                         <p>我同意遵守购票须知 I have read and agreed with the T&C. <input type="checkbox" id="TnCBox" onclick="show()"></p>
+
+                        <!--
                         <div class="text-center mt-2">
                             <p id="PickPrompt" style="display: none;">请选择场次 Please select date and time</p>
                             <select id="Picker" style="display: none;">
@@ -86,32 +96,36 @@
                                 <option value="https://events.cuccs.co.uk/e/7">05 Nov 夜场 Evening 1930-2200</option>
                             </select>
                         </div>
+                        -->
+
                         <div class="text-center mt-1">
                             <a class="btn" onclick="go()" id="PickBtn" style="display: none; color:#ffffff; cursor:pointer;">现在购票 Purchase tickets</a>
                         </div>
                     </div>
                     <div class="col-xs-0 col-lg-1"></div>
                 </div>
+
         </div>
     </div>
     <script>
         function show() {
             var box = document.getElementById("TnCBox");
-            var P1 = document.getElementById("PickPrompt");
-            var P2 = document.getElementById("Picker");
+            //var P1 = document.getElementById("PickPrompt");
+            //var P2 = document.getElementById("Picker");
             var P3 = document.getElementById("PickBtn");
             if (box.checked) {
-                P1.style.display = "block";
-                P2.style.display = "inline";
+                //P1.style.display = "block";
+                //P2.style.display = "inline";
                 P3.style.display = "inline";
             } else {
-                P1.style.display = "none";
-                P2.style.display = "none";
+                //P1.style.display = "none";
+                //P2.style.display = "none";
                 P3.style.display = "none";
             }
         }
         function go() {
-            window.location.href = document.getElementById("Picker").value;
+            //window.location.href = document.getElementById("Picker").value;
+            window.location.href = "https://adcticketing.com/loveletters";
         }
     </script>
 
